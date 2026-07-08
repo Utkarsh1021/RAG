@@ -1,0 +1,17 @@
+[
+    {
+        "query": "What is the main objective of this project?",
+        "expected_answer": "To build a Retrieval-Augmented Generation (RAG) system from scratch for learning purposes without high-level abstractions.",
+        "expected_chunks": ["The goal is to implement every component manually to understand internal workings of RAG."]
+    },
+    {
+        "query": "Which vector database is used in this implementation?",
+        "expected_answer": "FAISS is used as the vector database.",
+        "expected_chunks": ["Use FAISS as the vector database."]
+    },
+    {
+        "query": "What is the purpose of chunk overlap?",
+        "expected_answer": "Chunk overlap is used to prevent context loss at the boundaries of chunks and maintain semantic coherence.",
+        "expected_chunks": ["Explain chunk overlap implementation", "maintain semantic coherence"]
+    }
+]
