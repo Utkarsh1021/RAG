@@ -32,7 +32,7 @@ The system follows a sophisticated **Advanced RAG** architecture:
 
 ## 📂 Project Structure
 ```text
-rag_from_scratch/
+RAG/
 ├── data/                 # Golden datasets for evaluation
 ├── documents/            # Raw PDF storage
 ├── embeddings/           # Cached model weights
